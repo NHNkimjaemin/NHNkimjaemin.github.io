@@ -1,8 +1,7 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: BaseCamp
+title: BaseCamp | NHN BaseCamp 기록 블로그
+description: '원본 테마 - Jekflix / 출처: https://github.com/thiagorossener/jekflix-template'
 tags:
   - blog
   - template
