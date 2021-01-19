@@ -1,0 +1,10 @@
+<ul style="display: flex; flex-direction: row; gap: 10px;">
+    {% for item in site.menu %}
+      {% if item.title and item.url %}
+        <li style="margin-right: 10px;">
+          <a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  
