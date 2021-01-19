@@ -4,7 +4,16 @@
     <h3>{{ site.translations.text.comments | default: "Comments" }}</h3>
     <div id="disqus_thread"></div>
 </section>
-<script type="text/javascript">
+
+<script src="https://utteranc.es/client.js"
+repo="NHNkimjaemin/NHNkimjaemin.github.io"
+issue-term="pathname"
+label="Comment"
+theme="github-light"
+crossorigin="anonymous"
+async>
+</script>
+<!-- <script type="text/javascript">
     var disqus_loaded = false;
 
     function load_disqus()
@@ -25,6 +34,6 @@
                 load_disqus()
         }
     };
-</script>
+</script> -->
 
 {% endif %}
